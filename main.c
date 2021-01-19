@@ -10,8 +10,8 @@ int getch() {
 
 int main(int argc, char** argv) {
 	if(argc == 1) {
-		printf("Please provide range");
-		return 1;
+		fprintf(stderr, "Please provide range\n");
+		return 22;
 	}
 	
 	int from = 0;
